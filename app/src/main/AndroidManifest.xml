@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.unimas.a50200siswa.therenewingofyourmind">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Cover_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Book_Info" />
+        <activity android:name=".Table_Of_Content" />
+        <activity android:name=".Dedication" />
+        <activity android:name=".Acknowledgement" />
+        <activity android:name=".Introduction" />
+        <activity android:name=".Prayer" />
+        <activity android:name=".Chapter1" />
+        <activity android:name=".Chapter2" />
+        <activity android:name=".Chapter3" />
+        <activity android:name=".Chapter4" />
+        <activity android:name=".Chapter5" />
+        <activity android:name=".Chapter6" />
+        <activity android:name=".Chapter7" />
+        <activity android:name=".Prayer2" />
+        <activity android:name=".AboutTheBook"></activity>
+    </application>
+
+</manifest>
